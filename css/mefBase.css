@@ -11,6 +11,10 @@
 
 body{
     background-color: var(--Lightgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -20,10 +24,11 @@ main {
     margin: auto;
     background-color: var(--white);
     border-radius: 25px;
-    position: absolute;
+    /* Alignement avant correction*/
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 }
 
 main > div {
